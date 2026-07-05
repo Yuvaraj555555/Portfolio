@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- NAV -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">PORTFOLIO</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" onclick="closeMenu()">About</a>
+  <a href="#skills" onclick="closeMenu()">Skills</a>
+  <a href="#projects" onclick="closeMenu()">Projects</a>
+  <a href="#education" onclick="closeMenu()">Education</a>
+  <a href="#contact" onclick="closeMenu()">Contact</a>
+</div>
+
+<!-- HERO -->
+<section id="hero" class="hero">
+  <div class="hero-bg"></div>
+
+  <div class="hero-content">
+    <div class="hero-tag">Available for Opportunities</div>
+    <h1>
+      Yuvaraj<br>
+      <span class="name-accent">A</span>
+    </h1>
+    <p class="hero-subtitle">Java Full Stack Developer</p>
+    <p class="hero-desc">
+      Building scalable, efficient software with a passion for clean code and beautiful interfaces. 
+      Skilled in Java, Spring Boot, React JS, and modern web technologies.
+    </p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Get in Touch
+      </a>
+      <a href="document.pdf" download="document.pdf" class="btn-outline">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download CV
+      </a>
+    </div>
+    <div class="social-bar">
+      <a href="https://www.linkedin.com/in/yuvaraj555" target="_blank" class="social-link" title="LinkedIn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+      </a>
+      <a href="https://github.com/Yuvaraj555555" target="_blank" class="social-link" title="GitHub">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+      </a>
+      <a href="https://wa.me/917305616978" target="_blank" class="social-link" title="WhatsApp">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+      </a>
+      <a href="mailto:yuvaraj35777@gmail.com" class="social-link" title="Email">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-image-wrap">
+    <div class="hero-image-frame">
+      <img src="./image/WhatsApp Image 2026-06-26 at 9.00.15 PM.jpeg">
+      <!-- <div class="hero-badge">
+        <div class="badge-num">7.7</div>
+        <div class="badge-text">CGPA</div>
+      </div> -->
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <div class="section-label">About Me</div>
+      <h2 class="section-title">Crafting Code with<br>Purpose & Passion</h2>
+      <p>
+        I'm a Java Full Stack Developer from Chennai, Tamil Nadu, with hands-on experience in building 
+        robust, scalable web applications from the ground up.
+      </p>
+      <p>
+        My journey spans from object-oriented Java backend development to creating responsive, 
+        user-friendly interfaces with modern frontend technologies like Java Script <!-- and Bootstrap. -->
+      </p>
+    
+      <p>
+        I'm passionate about writing clean, maintainable code and continuously learning new 
+        technologies to solve real-world problems effectively.
+      </p>
+    </div>
+    <div class="reveal">
+      <div class="about-stats">
+        <div class="stat-card">
+          <div class="stat-num">5+</div>
+          <div class="stat-label">Projects Built</div>
+        </div>
+        <!-- <div class="stat-card">
+          <div class="stat-num">A+</div>
+          <div class="stat-label">Capgemini Grade</div>
+        </div> -->
+        <div class="stat-card">
+          <div class="stat-num">3yr</div>
+          <div class="stat-label">Software Application</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">7+</div>
+          <div class="stat-label">Tech Skills</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="skills-container">
+    <div class="skills-header reveal">
+      <div class="section-label">What I Know</div>
+      <h2 class="section-title">Technical Skills</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-category reveal">
+        <div class="skill-cat-title">☕ Languages & Core</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">Core Java</span>
+          <span class="skill-tag">OOPs</span>
+          <span class="skill-tag">Exception Handling</span>
+          <span class="skill-tag">Collections</span>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <div class="skill-cat-title">🎨 Frontend</div>
+        <div class="skill-tags">
+          <span class="skill-tag">HTML5</span>
+          <span class="skill-tag">CSS3</span>
+          <span class="skill-tag">JavaScript</span>
+          <!-- <span class="skill-tag">Bootstrap 5</span> -->
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <div class="skill-cat-title">⚡ Frameworks</div>
+        <div class="skill-tags">
+          <!-- <span class="skill-tag">React JS</span> -->
+          <span class="skill-tag">Spring Boot</span>
+          <span class="skill-tag">Hibernate</span>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <div class="skill-cat-title">🗄️ Backend & Database</div>
+        <div class="skill-tags">
+          <span class="skill-tag">JDBC</span>
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">CRUD Operations</span>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <div class="skill-cat-title">🛠️ Tools & Platforms</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Eclipse</span>
+          <span class="skill-tag">VS Code</span>
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">GitHub</span>
+          <!-- <span class="skill-tag">Figma</span> -->
+          <span class="skill-tag">MS Word</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="projects-container">
+    <div class="projects-header reveal">
+      <div class="section-label">My Work</div>
+      <h2 class="section-title">Featured Projects</h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-num">01</div>
+        <h3 class="project-title">ATS -FRIENDLY RESUME CHECKER</h3>
+        <p class="project-desc">
+          Developed an ATS-Friendly Resume Checker using Java (Core + Swing) and MySQL that analyzes resumes by 
+extracting text from PDF files using Apache PDF Box and comparing it with job-specific keywords stored in a 
+database.The system calculates an ATS score based on keyword matching and highlights missing skills to improve resume 
+effectiveness. JDBC was used for database connectivity, following object-oriented design principles.
+        </p>
+        <div class="project-techs">
+          <span class="project-tech">Java</span>
+          <span class="project-tech">MySQL</span>
+          <span class="project-tech">JDBC</span>
+          <span class="project-tech">CRUD</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-num">02</div>
+        <h3 class="project-title">EVENT MANAGEMENT SYSTEM</h3>
+        <p class="project-desc">
+          A fully responsive web application for planning and managing events. Features event registration, 
+          vendor coordination, and real-time attendee interaction with a clean, intuitive UI.
+        </p>
+        <div class="project-techs">
+          <span class="project-tech">HTML</span>
+          <span class="project-tech">CSS</span>
+          <span class="project-tech">JavaScript</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-num">03</div>
+        <h3 class="project-title">NETFLIX UI CLONE</h3>
+        <p class="project-desc">
+          A Netflix-inspired streaming platform interface featuring content browsing, search functionality, 
+          and fully adaptive responsive layouts. Focused on pixel-perfect user experience.
+        </p>
+        <div class="project-techs">
+          <span class="project-tech">HTML</span>
+          <span class="project-tech">CSS</span>
+          <span class="project-tech">JavaScript</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-num">04</div>
+        <h3 class="project-title">ONLINE COURSE ENROLLMENT</h3>
+        <p class="project-desc">
+          A Java-based course enrollment application with full student and course management capabilities. 
+          Implements core Java OOP principles with MySQL database integration and CRUD operations.
+        </p>
+        <div class="project-techs">
+          <span class="project-tech">Java</span>
+          <span class="project-tech">MySQL</span>
+          <span class="project-tech">JDBC</span>
+          <span class="project-tech">CRUD</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-num">05</div>
+        <h3 class="project-title">WEATHER CHECKER</h3>
+        <p class="project-desc">
+          Designed and developed a Weather App that allows users to search for any city's weather information.
+           The application displays real-time temperature, weather conditions, humidity, 
+          and wind speed using API integration. 
+          responsive UI using HTML, CSS, and Bootstrap
+        </p>
+        <div class="project-techs">
+          <span class="project-tech">React JS</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="edu-container">
+    <div class="reveal">
+      <div class="section-label">My Journey</div>
+      <h2 class="section-title">Education & Achievements</h2>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-card reveal">
+        <div class="edu-year">2022 — 2025</div>
+        <h3 class="edu-institution">Thiruthangal Nadar College</h3>
+        <p class="edu-degree">Bachelor of Science<br>Software Application</p>
+        <!-- <span class="edu-cgpa">🏆 CGPA: 7.7</span> -->
+      </div>
+
+      <div class="reveal">
+        <div class="section-label" style="margin-bottom:1.5rem">Certifications</div>
+        <div class="cert-list">
+          <div class="cert-item">
+            <div class="cert-icon">📜</div>
+            <div>
+              <div class="cert-name">Java Fullstack Developer </div>
+              <div class="cert-issuer">Qspider Arumbakkam</div>
+            </div>
+          </div>
+          <div class="cert-item">
+            <div class="cert-icon">📊</div>
+            <div>
+              <div class="cert-name">Big Data Certification</div>
+              <div class="cert-issuer">NPTEL — National Programme on Technology Enhanced Learning</div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-container">
+    <div class="reveal">
+      <div class="section-label" style="justify-content:center">Say Hello</div>
+      <h2 class="section-title">Let's Work Together</h2>
+      <p class="contact-desc">
+        I'm actively looking for new opportunities. Whether you have a question, a project idea, 
+        or just want to connect — my inbox is always open!
+      </p>
+    </div>
+
+    <div class="contact-cards reveal">
+      <a href="mailto:yuvaraj35777@gmail.com" class="contact-card">
+        <div class="cc-icon">✉️</div>
+        <div class="cc-label">Email</div>
+        <div class="cc-value">yuvaraj35777@gmail.com</div>
+      </a>
+      <a href="https://wa.me/917305616978" target="_blank" class="contact-card">
+        <div class="cc-icon">💬</div>
+        <div class="cc-label">WhatsApp</div>
+        <div class="cc-value">+91 73056 16978</div>
+      </a>
+      <a href="https://www.linkedin.com/in/yuvaraj555" target="_blank" class="contact-card">
+        <div class="cc-icon">🔗</div>
+        <div class="cc-label">LinkedIn</div>
+        <div class="cc-value">yuvaraj555</div>
+      </a>
+      <a href="https://github.com/Yuvaraj555555" target="_blank" class="contact-card">
+        <div class="cc-icon">🐙</div>
+        <div class="cc-label">GitHub</div>
+        <div class="cc-value">github.com/Yuvaraj555555</div>
+      </a>
+    </div>
+
+    <div class="download-wrap reveal">
+      <a href="document.pdf" download="document.pdf" class="btn-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download Resume
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-name">Yuvaraj A</div>
+  <div class="footer-copy">© 2025 · Java Full Stack Developer · Chennai, Tamil Nadu</div>
+  <div style="display:flex;gap:1rem">
+    <a href="https://github.com/Yuvaraj555555" target="_blank" class="social-link">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+    </a>
+    <a href="https://www.linkedin.com/in/yuvaraj555" target="_blank" class="social-link">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+    </a>
+  </div>
+</footer>
+<script src="./app.js"></script>
+</body>
+</html>
